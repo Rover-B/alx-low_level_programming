@@ -1,10 +1,12 @@
 #include <stdio.h>
-#include <stdlib.>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- * main - print if the number is positive, negatve or 0
- * Return: ALways 0
+ * main - main function to generate a random number
+ *
+ * Return: ALways 0 (success)
+ *
  */
 int main(void)
 {
@@ -21,7 +23,7 @@ int main(void)
 	{
 		printf("%D is zero\n", n);
 	}
-	else
+	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
