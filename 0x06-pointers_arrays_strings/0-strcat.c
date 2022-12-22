@@ -25,5 +25,4 @@ char *_strcat(char *dest, char *src)
 	p = dest;
 
 	return (p);
-
 }
