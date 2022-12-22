@@ -2,7 +2,7 @@
 /**
  * main - print _putchar
  *
- * this program is written by nathan-88
+ * this program is written by Rover-B
  *
  * Return: 0
  */
