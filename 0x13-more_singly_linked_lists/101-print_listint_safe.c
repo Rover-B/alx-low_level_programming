@@ -1,5 +1,6 @@
 #include "lists.h"
 
+
 /**
  * free_listp - function that frees a linked list
  * @head: head of a list.
@@ -64,4 +65,4 @@ size_t print_listint_safe(const listint_t *head)
 
 	free_listp(&hptr);
 	return (node);
-}
+}}
